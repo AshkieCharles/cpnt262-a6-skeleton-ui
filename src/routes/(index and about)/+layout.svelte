@@ -1,6 +1,8 @@
 <script>
+  import '../../app.postcss';
 	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
+
 
 <AppShell>
 	<svelte:fragment slot="header">
@@ -12,7 +14,7 @@
 		>
 			<a
 				class="btn btn-sm variant-ghost-surface"
-				href="../index"
+				href="../"
 				rel="noreferrer"
 			>
 				Home
@@ -39,7 +41,7 @@
 	</svelte:fragment>
 
 	
-	<slot />
+  <slot />
 	<svelte:fragment slot="pageFooter">&copy; Ashkie Esperanza 2023</svelte:fragment>
 </AppShell>
 
