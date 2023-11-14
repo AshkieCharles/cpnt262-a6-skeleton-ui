@@ -1,5 +1,5 @@
 
 <h2>
-	About
+	Gallery
 </h2>
 
