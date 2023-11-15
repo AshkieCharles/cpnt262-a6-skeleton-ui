@@ -3,30 +3,29 @@
 	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
 
-<AppShell>
-	<svelte:fragment slot="header">
+<header class="bg-black p-4 " >
+	<AppShell class="text-gray-950">
 		<!-- App Bar -->
 		<AppBar
-			slotDefault="place-self-center"
-			slotTrail="place-content-end"
-			background="bg-secondary-50-900-token"
+			slotTrail="place-content-start"
+			background="bg-secondary-900-50-token"
 		>
 			<a
-				class="btn btn-sm variant-ghost-surface"
+				class="btn btn-sm variant-glass-surface dark:md:hover:bg-fuchsia-600"
 				href="../index"
 				rel="noreferrer"
 			>
 				Home
 			</a>
 			<a
-				class="btn btn-sm variant-ghost-surface"
+				class="btn btn-sm variant-glass-surface dark:md:hover:bg-fuchsia-600"
 				href="../about"
 				rel="noreferrer"
 			>
 				About
 			</a>
 			<a
-				class="btn btn-sm variant-ghost-surface"
+				class="btn btn-sm variant-glass-surface dark:md:hover:bg-fuchsia-600"
 				href="../gallery"
 				rel="noreferrer"
 			>
@@ -36,13 +35,13 @@
 				<LightSwitch />
 			</svelte:fragment>
 		</AppBar>
-		
-	</svelte:fragment>
-
-	
+		</AppShell>
+	</header>
+	<AppShell>
 	<slot />
 	<svelte:fragment slot="pageFooter">&copy; Ashkie Esperanza 2023</svelte:fragment>
 </AppShell>
+
 
 
 
