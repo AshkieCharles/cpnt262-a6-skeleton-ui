@@ -42,6 +42,7 @@
 
 	
   <slot />
-	<svelte:fragment slot="pageFooter">&copy; Ashkie Esperanza 2023</svelte:fragment>
+	<svelte:fragment slot="pageFooter">
+		<footer class="bg-primary-500 text-center">&copy; Ashkie Esperanza 2023</footer></svelte:fragment>
 </AppShell>
 
