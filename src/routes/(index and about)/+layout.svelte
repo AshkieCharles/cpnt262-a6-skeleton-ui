@@ -1,4 +1,5 @@
 <script>
+	import List from '../../lib/List.svelte';
   import '../../app.postcss';
 	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
@@ -41,6 +42,7 @@
 	</svelte:fragment>
 
 	
+	<List />
   <slot />
 	<svelte:fragment slot="pageFooter">&copy; Ashkie Esperanza 2023</svelte:fragment>
 </AppShell>

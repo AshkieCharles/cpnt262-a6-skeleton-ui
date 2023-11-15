@@ -12,7 +12,7 @@
 		>
 			<a
 				class="btn btn-sm variant-glass-surface dark:md:hover:bg-fuchsia-600"
-				href="../index"
+				href="../"
 				rel="noreferrer"
 			>
 				Home
