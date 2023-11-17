@@ -5,6 +5,7 @@
 
 <header class="bg-black p-4 " >
 	<AppShell class="text-gray-950">
+		<svelte:fragment slot="header">
 		<!-- App Bar -->
 		<AppBar
 			slotTrail="place-content-start"
@@ -35,6 +36,7 @@
 				<LightSwitch />
 			</svelte:fragment>
 		</AppBar>
+		</svelte:fragment>
 		</AppShell>
 	</header>
 	<AppShell>
