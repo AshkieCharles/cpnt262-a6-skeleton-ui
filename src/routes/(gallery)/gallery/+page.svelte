@@ -12,4 +12,3 @@ href="https://www.pexels.com/photo/shallow-focus-photography-of-red-apple-on-gra
 
 
 
-<slot />
