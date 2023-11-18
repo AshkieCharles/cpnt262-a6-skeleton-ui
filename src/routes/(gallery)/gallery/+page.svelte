@@ -1,4 +1,6 @@
-
+<script>
+import { FileDropzone } from '@skeletonlabs/skeleton';
+</script>
 
 <a class="block card-hover p-4 my-12 mx-12 "
 href="https://www.pexels.com/photo/shallow-focus-photography-of-red-apple-on-gray-pavement-206959/">
@@ -9,5 +11,4 @@ href="https://www.pexels.com/photo/shallow-focus-photography-of-red-apple-on-gra
 </div>
 
  </a>
-
 
